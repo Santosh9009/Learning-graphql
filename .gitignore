@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.vite/
+
+# Cache
+.cache/
+.tmp/
+.temp/
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Debugging files
+coverage/
+.nyc_output/
+jest/
+jest-cache/
+jest.config.js
+
+# Generated files
+*.tsbuildinfo
+*.map
+
+# Docker-related
+docker-compose.override.yml
+.dockerignore
+
+# Static and temporary files
+public/static/media/*.*
